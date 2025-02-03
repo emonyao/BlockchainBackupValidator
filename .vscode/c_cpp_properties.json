@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "GCC",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "E:/DevelopApp/msys2/msys64/mingw64/include/c++/14.2.0",
+                "E:/DevelopApp/msys2/msys64/mingw64/include",
+                "E:/DevelopApp/msys2/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include",
+                "E:/DevelopApp/msys2/msys64/mingw64/x86_64-w64-mingw32/include"
+            ],
+            "compilerPath": "E:/DevelopApp/msys2/msys64/mingw64/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
