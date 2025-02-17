@@ -1,0 +1,5 @@
+{
+    "eos_api": "https://eos.greymass.com",
+    "snapshot_path": "data/snapshot.bin",
+    "output_log": "logs/validation_report.json"
+}
