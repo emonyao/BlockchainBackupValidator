@@ -8,6 +8,8 @@
         "string_view": "c",
         "format": "c",
         "initializer_list": "c",
-        "span": "c"
+        "span": "c",
+        "iosfwd": "cpp",
+        "iostream": "cpp"
     }
 }

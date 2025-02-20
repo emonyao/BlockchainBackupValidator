@@ -38,13 +38,13 @@ std::string sha256(const std::vector<unsigned char> &data) {
 void parse_bin_file(const std::string &filepath, const std::string &output_json) {
     std::ifstream file(filepath, std::ios::binary);
     if (!file) {
-        std::cerr << "❌ 无法打开文件: " << filepath << std::endl;
+        std::cerr << "无法打开文件: " << filepath << std::endl;
         return;
     }
 
     std::ofstream json_file(output_json);
     if (!json_file) {
-        std::cerr << "❌ 无法创建 JSON 输出文件: " << output_json << std::endl;
+        std::cerr << "无法创建 JSON 输出文件: " << output_json << std::endl;
         return;
     }
 
@@ -69,7 +69,7 @@ void parse_bin_file(const std::string &filepath, const std::string &output_json)
     file.close();
     json_file.close();
 
-    std::cout << "✅ 解析完成！已输出 JSON: " << output_json << std::endl;
+    std::cout << "解析完成！已输出 JSON: " << output_json << std::endl;
 }
 
 int main() {
